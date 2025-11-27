@@ -1,0 +1,16 @@
+# Core Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+matplotlib
+
+# Federated Learning & Simulation
+flwr>=1.0.0
+flwr-datasets
+ray
+
+# Utilities & Metrics
+tqdm
+scikit-image
+jupyter
+notebook

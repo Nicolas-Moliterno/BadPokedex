@@ -1,0 +1,23 @@
+name: badpokedex
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - matplotlib
+  - scikit-image
+  - tqdm
+  - jupyter
+  - notebook
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8
+  
+  - pip:
+    - flwr>=1.0.0
+    - flwr-datasets
+    - ray
